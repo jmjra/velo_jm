@@ -3,9 +3,6 @@ import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 
-DATE = datetime.date.today()
-MOIS = DATE.month
-ANNEE = DATE.year
 
 def trace_courbe(data, opt):
 	_opt = opt
@@ -24,6 +21,11 @@ def trace_courbe(data, opt):
 	return fig
 
 def main():
+	
+	DATE = datetime.date.today()
+	MOIS = DATE.month
+	ANNEE = DATE.year
+
 
 	st.sidebar.write('Gestion des données')
 
