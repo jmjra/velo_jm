@@ -80,7 +80,7 @@ def main():
 		    st.dataframe(total)
 
 		with col2:
-		    st.write('Bilan précédent : < 2020')
+		    st.write('Bilan précédent : < 2023')
 		    st.image('images/cumul_velo.png', use_column_width='auto')
 
 
