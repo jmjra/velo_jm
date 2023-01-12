@@ -90,11 +90,11 @@ def main():
 	## affichage courbe gsheet
 
 	# st.markdown("""<iframe width ="600" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBafAKsaj5mQxngpJQmmsdcHtFaU0DQbVpP2gPZe-f0q7VzTgYxZjoHFU97w4AC-SxbaqzsYIggdxb/pubchart?oid=174466294&amp;format=image"></iframe>""",unsafe_allow_html=True) 
-	#st.markdown("""<iframe width ="600" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQBmY_1b2XT94E60Ma_PcEVQcuonGk6r9DR-oXNB2KhrmoQtoJRfkjuqzN-w1XR8HXN0j3h_JLYyqUm/pubchart?oid=174466294&amp;format=interactive"></iframe>""",unsafe_allow_html=True)
+	# st.markdown("""<iframe width ="600" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQBmY_1b2XT94E60Ma_PcEVQcuonGk6r9DR-oXNB2KhrmoQtoJRfkjuqzN-w1XR8HXN0j3h_JLYyqUm/pubchart?oid=174466294&amp;format=interactive"></iframe>""",unsafe_allow_html=True)
 	
-	#st.markdown("""<iframe width ="800" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQsZuVNcQd-bEICzpQsE0GOGPXN8sUHwoq920DVFpheNqDgIsMA9kkPPf1-tLh6YK64Amn_65GaljoH/pubhtml?gid=1308477466&single=true">""", unsafe_allow_html=True)
+	st.markdown("""<iframe width ="800" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQsZuVNcQd-bEICzpQsE0GOGPXN8sUHwoq920DVFpheNqDgIsMA9kkPPf1-tLh6YK64Amn_65GaljoH/pubhtml?gid=1308477466&single=true">""", unsafe_allow_html=True)
 	
-	st.image(https://docs.google.com/spreadsheets/d/e/2PACX-1vQsZuVNcQd-bEICzpQsE0GOGPXN8sUHwoq920DVFpheNqDgIsMA9kkPPf1-tLh6YK64Amn_65GaljoH/pubchart?oid=174466294&format=image, use_column_width='auto')
+	#st.image(https://docs.google.com/spreadsheets/d/e/2PACX-1vQsZuVNcQd-bEICzpQsE0GOGPXN8sUHwoq920DVFpheNqDgIsMA9kkPPf1-tLh6YK64Amn_65GaljoH/pubchart?oid=174466294&format=image, use_column_width='auto')
 	
 	if (annee == str(ANNEE)): 
 		st.info('Par défaut l\'année en cours est affichée')
