@@ -17,6 +17,8 @@ def trace_courbe(data, opt):
 		ax.scatter(data.Date, data.Poids)
 	else:
 		ax.bar(data.Date, data.Poids)
+		ax.set_xlim(0,31)
+		ax.plot([0,31],[data.Poids.mean(), data.Poids.mean()], '--r')
 
 	return fig
 
