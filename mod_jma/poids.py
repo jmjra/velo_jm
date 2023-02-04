@@ -15,6 +15,7 @@ def trace_courbe(data, opt):
 	plt.title("Enregistrements")
 	if _opt == 'total':
 		ax.scatter(data.Date, data.Poids)
+		ax.plot([0,data.Poids.mean()],[data.Date.max(),data.Poids.mean()], '+g')
 	else:
 		ax.bar(data.Date, data.Poids)
 		ax.set_xlim(0,31)
