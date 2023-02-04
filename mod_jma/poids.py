@@ -16,7 +16,7 @@ def trace_courbe(data, opt):
 	if _opt == 'total':
 		ax.scatter(data.Date, data.Poids)
 		ax.plot([0,data.Date.max()],[data['Poids'].min(),data['Poids'].min()], '--g')
-		ax.plot([0,data.Date.max()],[data['Poids'].max(),data['Poids'].max()], '--r')
+		ax.plot([0,data.Date.max()],[data['Poids'].max(),data['Poids'].max()], '-r')
 	else:
 		ax.bar(data.Date, data.Poids)
 		ax.set_xlim(0,31)
