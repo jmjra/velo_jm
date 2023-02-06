@@ -66,7 +66,7 @@ def trace(type_courbe, data_courbe, objectif=None, objectif_min=None):
 		# trace de reg lin
 		ax.plot(list(range(1,13)),reg_lin, linestyle = '--', color='gray')
 		# trace de ligne verticale pour visualiser l'écart entre réalisé et objectif
-		ax.plot([_x.max(),_x.max()],[0, 1.1*int(objectif)/12*(_x.max())], linestyle='..', color='teal')
+		ax.plot([_x.max(),_x.max()],[0, 1.1*float(objectif)/12*(_x.max())], linestyle='..', color='teal')
 		
 
 		return fig, prev
