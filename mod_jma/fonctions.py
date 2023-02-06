@@ -70,7 +70,7 @@ def trace(type_courbe, data_courbe, objectif=None, objectif_min=None):
 		_cote = _x[-1]*int(objectif)/12 * 1.5
 		_ecart = round(_y[-1] - _x[-1]*int(objectif)/12,2)
 		ax.plot([_x[-1],_x[-1]],[0, _cote], linestyle='--', color='teal')
-		ax.text(_x[-1], _cote,f'Ecart / objectif : {_ecart} km')
+		ax.text(1, int(objectif)*0.8,f'Ecart / objectif : {_ecart} km')
 		
 
 		return fig, prev
