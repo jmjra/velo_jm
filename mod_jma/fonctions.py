@@ -66,9 +66,9 @@ def trace(type_courbe, data_courbe, objectif=None, objectif_min=None):
 		# trace de reg lin
 		ax.plot(list(range(1,13)),reg_lin, linestyle = '--', color='gray')
 		# trace de ligne verticale pour visualiser l'écart entre réalisé et objectif
-		_cote = _y[-1]*int(objectif)/12 + 50
+		_cote = _x[-1]*int(objectif)/12 + 50
 		ax.plot([_x[-1],_x[-1]],[0, _cote], linestyle='--', color='teal')
-		#ax.text('Ecart / objectif', _x[-1], _cote)
+		ax.text(_x[-1], _cote,'Ecart / objectif')
 		
 
 		return fig, prev
