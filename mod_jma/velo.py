@@ -73,16 +73,16 @@ def main():
 	with st.expander("+ d'info"):
 
 
-		col1,col2 = st.columns(2)
+		#col1,col2 = st.columns(2)
 
-		with col1:
-		    st.write("Récapitulatif")
-		    st.dataframe(total)
+		#with col1:
+		st.write("Récapitulatif")
+		st.dataframe(total)
 
-		with col2:
-		    st.write('Bilan précédent : < 2023')
+		#with col2:
+		st.write('Bilan précédent : < 2024')
 		    #st.image('images/cumul_velo.png', use_column_width='auto')
-		    st.markdown("""<iframe width="600" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTzRuweEgvJ_ZdOKO_HwD008mGmfIWQlWPaAJWHOpJbG43j07iuLrwdFnGy102V17rnC3JO0flQCxew/pubchart?oid=12&amp;format=interactive"></iframe>""", unsafe_allow_html=True)											
+		st.markdown("""<iframe width="600" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTzRuweEgvJ_ZdOKO_HwD008mGmfIWQlWPaAJWHOpJbG43j07iuLrwdFnGy102V17rnC3JO0flQCxew/pubchart?oid=12&amp;format=interactive"></iframe>""", unsafe_allow_html=True)											
 													
 
 
