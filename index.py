@@ -80,7 +80,7 @@ if choix==liste_choix[1]:
 
 if choix==liste_choix[-1]: # Page d'accueil
 	
-	st.sidebar.image('images/output.gif',use_column_width='auto')
+	st.sidebar.image('images/output.gif',use_container_width='auto')
 	# st.sidebar.info(datetime.date.today().strftime("%d - %m - %Y"))
 	st.sidebar.info(date_jour)
 
@@ -99,7 +99,7 @@ if choix==liste_choix[-1]: # Page d'accueil
 	 """)
 	st.markdown(""" **Sélection du jour**""")
 
-	st.image(img_alea, use_column_width='auto')
+	st.image(img_alea, use_container_width='auto')
 
 
 
