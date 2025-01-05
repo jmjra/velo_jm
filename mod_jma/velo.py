@@ -80,9 +80,9 @@ def main():
 		st.dataframe(total)
 
 		#with col2:
-		st.write('Bilan précédent : < 2024')
+		st.write(f"Bilan précédent : < {ANNEE}")
 		    #st.image('images/cumul_velo.png', use_column_width='auto')
-		st.markdown("""<iframe width="600" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTzRuweEgvJ_ZdOKO_HwD008mGmfIWQlWPaAJWHOpJbG43j07iuLrwdFnGy102V17rnC3JO0flQCxew/pubchart?oid=12&amp;format=interactive"></iframe>""", unsafe_allow_html=True)											
+		st.markdown("""<iframe width="600" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTparJCYwmqxiXxwZnaSx-F_7cHaZm9Nr-QGnkIM6H4jyZYg5CHGsUXy4MsynG5zfbTfepuzH5CeI7d/pubchart?oid=174466294&format=image"></iframe>""", unsafe_allow_html=True)											
 													
 
 
