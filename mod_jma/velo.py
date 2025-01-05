@@ -70,7 +70,7 @@ def main():
 
 	st.info("Sorties vélo "+str(annee)+" : objectif = "+str(objectif)+" km")
 
-	with st.expander("+ d'info"):
+	with st.expander("plus d'info"):
 
 
 		#col1,col2 = st.columns(2)
