@@ -86,7 +86,7 @@ def main():
 													
 
 
-	message=f"Détail pour {annee} - Total actuel : {round(total['sum'][annee],1)} km"
+	message=f"Année {annee} - Total actuel : {round(total['sum'][annee],1)} km"
 	st.subheader(message)
 
 	## affichage courbe gsheet
